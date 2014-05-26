@@ -47,7 +47,7 @@ private:
 			return;
 		int temp = tam/2;
 		int *B = new int[temp];
-		int *C = new int[temp];
+		int *C = new int[tam-temp];
 		for( int i = 0; i < tam; i++ ){
 			if( i < temp ){
 				B[i] = A[i];
